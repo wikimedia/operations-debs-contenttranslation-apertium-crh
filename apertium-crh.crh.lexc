@@ -887,6 +887,8 @@ LEXICON V-NONFINITE
 %<prc_perf%>:%>%{i%}p # ;
 %<prc_impf%>:%>%{E%} # ;
 
+%<prc_impf%>%+bil%<v%>%<tv%>:%>%{E%}%>bil V-TV ;
+
 %<prc_cond%>:%>s%{A%} V-PERS-S2 ;
 
 %<prc_past%>:%>%{G%}%{A%}n # ;
@@ -1148,6 +1150,7 @@ boyunca:boyunca POST ; ! "during/пока"
 itibaren:itibaren POST ; ! "from"
 qarşı:qarşı POST ; ! ""
 üzere:üzere POST ; ! ""
+binaen:binaen POST ; ! ""
 
 LEXICON Pronouns 
 
@@ -1236,6 +1239,7 @@ altı:altı NUM ; ! ""
 beş:beş NUM ; ! ""
 sekiz:sekiz NUM ; ! ""
 yedi:yedi  NUM ; ! ""
+yedi:edi  NUM ; ! ""
 doquz:doquz  NUM ; ! ""
 on:on NUM ; ! ""
 yetmiş:yetmiş NUM ; ! ""
@@ -1940,7 +1944,7 @@ zemin:zemin N1 ; ! "земля, фон"
 zenaat:zenaat N1 ; ! "специальность"
 zerdali:zerdali N1 ; ! "абрикос"
 zıddiyet:zıddiyet N1 ; ! "противоречие"
-ziyalılar:ziyalılar N1 ; ! "интеллигенция"
+!ziyalılar:ziyalılar N1 ; ! "интеллигенция"
 zorluq:zorluq N1 ; ! "трудность"
 zulum:zulum N1 ; ! "иго"
 
@@ -2723,6 +2727,7 @@ sistema:sistema N1 ; ! ""
 siyasetçi:siyasetçi N1 ; ! ""
 soqaq:soqaq N1 ; ! ""
 süret:süret N1 ; ! ""
+süret:suret N1 ;
 sürgünlik:sürgünlik N1 ; ! ""
 tahmin:tahmin N1 ; ! ""
 talap:talap N1 ; ! ""
@@ -4411,6 +4416,7 @@ ait:ait A1 ; ! "" ! FIXME
 evelsi:evelsi A1 ;
 adli:adli A1 ;
 uquqlu:uquqlu A1 ;
+mezkür:mezkür A1 ;
 aktivist:aktivist N5 ; ! ""
 qaza:qaza N1 ; ! ""
 tuvğan:tuvğan N1 ; ! ""
@@ -7705,6 +7711,10 @@ arbitraj:arbitraj N1 ; ! ""
 
 rok:rok N1 ; ! ""
 menba:menba N1 ; ! ""
+respublika:respublika N1 ; ! ""
+biznes:biznes N1 ; ! ""
+rezerv:rezerv N1 ; ! ""
+gorsovet:gorsovet N5 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -12796,6 +12806,81 @@ muessise:muessise N1 ;
 tama:tama N1 ;
 kelecek:kelecek N1 ;
 Kezlevli:Kezlevli N1 ;
+konkurs:konkurs N1 ;
+boyevik:boyevik N1 ;
+ansambl:ansambl N1 ;
+radiokomitet:radiokomitet N1 ;
+klarnet:klarnet N1 ;
+kemane:kemane N1 ;
+diktor:diktor N1 ;
+qışlaq:qışlaq N1 ;
+estrada:estrada N1 ;
+yır:yır N1 ;
+deportatsiya:deportatsiya N1 ;
+orkestr:orkestr N1 ;
+direktor:direktor N1 ;
+cıyıntıq:cıyıntıq N1 ;
+umumtasil:umumtasil N1 ;
+zal:zal N1 ;
+çalğıcı:çalğıcı N1 ;
+spektakl:spektakl N1 ;
+uran:uran N1 ;
+pyesa:pyesa N1 ;
+truppa:truppa N1 ;
+kadr:kadr N1 ;
+zanaat:zanaat N1 ;
+qurucılıq:qurucılıq N1 ;
+dirijor:dirijor N1 ;
+ajiotaj:ajiotaj N1 ;
+yetişmemezlik:yetişmemezlik N1 ;
+abituryent:abituryent N1 ;
+informatika:informatika N1 ;
+hayriye:hayriye N1 ;
+kündüz:kündüz N1 ;
+yarış:yarış N1 ;
+izaat:izaat N1 ;
+iştiraq:iştiraq N1 ;
+acet:acet N1 ;
+şarait:şarait N1 ;
+mahkemeci:mahkemeci N1 ;
+ciet:ciet N1 ;
+mütehassıs:mütehassıs N1 ;
+mesüliet:mesüliet N1 ;
+tahliye:tahliye N1 ;
+qoltutuv:qoltutuv N1 ;
+piket:piket N1 ;
+avto:avto N1 ;
+mudaafa:mudaafa N1 ;
+inkâr:inkâr N1 ;
+erzaq:erzaq N1 ;
+ayırım:ayırım N1 ;
+nezaretçi:nezaretçi N1 ;
+gümrük:gümrük N1 ;
+duma:duma N1 ;
+teleleyhası:teleleyhası N1 ;
+ziddiyet:ziddiyet N1 ;
+samooborona:samooborona N1 ;
+ketişat:ketişat N1 ;
+nefaqa:nefaqa N1 ;
+sermiya:sermiya N1 ;
+qaçaqlar:qaçaqlar N1 ;
+ıntıluv:ıntıluv N1 ;
+ştab:ştab N1 ;
+mesüliet:mesüliet N1 ;
+bloger:bloger N1 ;
+drujinnik:drujinnik N1 ;
+terakt:terakt N1 ;
+qabarcılıq:qabarcılıq N1 ;
+qabar:qabar N1 ;
+parom:parom N1 ;
+damartı:damartı N1 ;
+viza:viza N1 ;
+qavehane:qavehane N1 ;
+loqsahane:loqsahane N1 ;
+serleva:serleva N1 ;
+poyezd:poyezd N1 ;
+esaplama:esaplama N1 ;
+polkovnik:polkovnik N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
@@ -13475,6 +13560,38 @@ ekili:ekili A1;
 millionlı:milyonlı A1; ! Err/Orth
 millionlı:millionlı A1; 
 kanunsuz:kanunsuz A1;
+işğalci:işğalci A1;
+müsbet:müsbet A1;
+ayırı:ayırı A1;
+mütenasip:mütenasip A1;
+ruhiy:ruhiy A1;
+ekstremistik:ekstremistik A1;
+tabiiy:tabiiy A1;
+evelki:evelki A1;
+strategik:strategik A1;
+maküm:maküm A1;
+yaqlı:yaqlı N1;
+ğazel:ğazel N1;
+beyit:beyit N1;
+göñülli:göñülli N1;
+yasaq:yasaq N1;
+teleleyha:teleleyha N1;
+mabüs:mabüs N1;
+mırza:mırza N1;
+müür:müür N1;
+rada:rada N1;
+timsal:timsal N1;
+energetika:energetika N1;
+teprenüv:teprenüv N1;
+zayıf:zayıf A1;
+
+yekâne:yekâne A1;
+zaruriy:zaruriy A1;
+muayyen:muayyen A1;
+imkânsız:imkânsız A1;
+tuvğan:tuvğan A1;
+teşkiliy:teşkiliy A1;
+
 muqaddes:muqaddes A3;
 başqa:başqa A3;
 aynı:aynı A3;
@@ -13617,7 +13734,33 @@ binayen:binayen ADV ;
 aytmaqçe:aytmaqçe ADV ;
 asılında:asılında ADV ;
 olduqça:olduqça ADV ;
+er% daim:er% daim ADV ;
+umumen:umumen ADV ;
+evelâ:evelâ ADV ;
+maniasız:maniasız ADV ;
+mıtlaqa:mıtlaqa ADV ;
+ğaliba:ğaliba ADV ;
+elbette:elbette ADV ;
+yarın:yarın ADV ;
+birazdan:birazdan ADV ;
+bugünde:bugünde ADV ;
+endiden:endiden ADV ;
+qısmen:qısmen ADV ;
+apansızdan:apansızdan ADV ;
+şahsen:şahsen ADV ;
+doğrudan:doğrudan ADV ;
+aselet:aselet ADV ;
+bıltır:bıltır ADV ;
+niayet:niayet ADV ;
+aqiqaten:aqiqaten ADV ;
+bütünley:bütünley ADV ;
+şay:şay ADV ;
+ilâhre:ilâhre ADV ;
+
+
+
 alâ:alâ ADV ; ! "still"
+bazıda:bazıda ADV ; ! "sometimes"
 
 
 LEXICON Verbs 
@@ -13742,7 +13885,7 @@ denil:denil V-IV ; ! "" ! Der/Pass
 pekit:pekit V-TV ; ! "strengthen"
 qala:qala V-IV ; ! "build a wall"
 qara:qara V-IV ; ! "look at"
-qatna:qatna V-TV ; ! "visit"
+qatna:qatna V-IV ; ! "visit"
 qaytar:qaytar V-TV ; ! "send back"
 qıdır:qıdır V-TV ; ! "seek/искать"
 qılın:qılın V-IV ; ! ""
@@ -14804,6 +14947,16 @@ qızın:qızın V-IV ; ! ""
 esaslan:esaslan V-IV ; ! "be based on"
 
 öde:öde V-TV ; ! ""
+izaatla:izaatla V-TV ; ! ""
+adla:adla V-TV ; ! ""
+tikle:tikle V-TV ; ! ""
+isbatla:isbatla V-TV ; ! ""
+
+esapla:esapla V-IV ; ! ""
+tiklen:tiklen V-IV ; ! ""
+şekle:şekle V-IV ; ! ""
+oşa:oşa V-IV ; ! ""
+qoltut:qoltut V-IV ; ! ""
 
 
 LEXICON Abbreviations
@@ -14843,6 +14996,8 @@ Dr%.:Dr%. ABBR ;
 km:km ABBR ; 
 mm:mm ABBR ; 
 m:m ABBR ; 
+mln:mln ABBR ; 
+mlrd:mlrd ABBR ; 
 sm:sm ABBR ; 
 kg:kg ABBR ; 
 ş%.:ş%. ABBR ; ! "şehir"

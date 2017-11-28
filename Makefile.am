@@ -2,8 +2,8 @@
 ## Makefile for apertium-crh
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
+RELEASE=0.2
+VERSION=0.2.0
 LANG1=crh
 BASENAME=apertium-$(LANG1)
 
@@ -154,6 +154,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).lexc		\
 		$(BASENAME).$(LANG1).twol	\
 		$(BASENAME).$(LANG1).rlx	\
 		$(BASENAME).post-$(LANG1).dix	\
+		$(BASENAME).err.twol			\
 		$(LANG1).prob			\
 		modes.xml
 
