@@ -1,3 +1,9 @@
+apertium-crh (0.2.0~r83161-1+wmf1) jessie-wikimedia; urgency=low
+
+  * New upstream release.
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 28 Nov 2017 10:03:04 +0530
+
 apertium-crh (0.1.0~r81872-1+wmf1) jessie-wikimedia; urgency=low
 
   * Rebuild for Jessie.
